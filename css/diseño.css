@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+}
+nav{
+    width: 100%;
+    background-color: rgb(9, 152, 152);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.imglogo{
+    width: 100px !important ;
+    padding: 5px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0.7rem;
+    justify-content: space-between;
+}
+nav ul a{
+     text-decoration: none;
+     color: whitesmoke;
+     padding: 0.7rem;
+}
+nav ul a:hover{
+    background-color: whitesmoke;
+    color: rgb(9, 152, 152);
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color: darkslategrey;
+    padding: 20px;
+}
+h3{
+    padding: 10px;
+    text-align: center;
+    color: darkslategrey;
+}
+p{
+    padding: 20px;
+    line-height: 1.5rem;
+}
+.escri{
+    text-align: center;
+}
+.escritorio{
+    width: 400px;
+    border-radius: 20px;
+    
+}
+.imgplasma, .imglaser, .imgskin, .immpresentacion{
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.foto{
+    text-align: center;
+}
+.mapa{
+    width: 20px;
+    padding: 20px;
+    margin: 0 auto;
+}
+.prese{
+    text-align: center;
+}
+.fotolaserlink{
+    text-align: center;
+    border-radius: 20px;
+}
+.fotodermolink{
+    text-align: center;
+    border-radius: 20px;
+}
+.fotoskinlink{
+    text-align: center;
+    border-radius: 20px;
+}
+.fotodermolink:hover, .fotoskinlink:hover,.fotolaserlink:hover{
+     opacity: 0.8;
+     color: darkgray; 
+    transition: opacity 0.5s ease;
+    }
+    -------------
+.contacto {
+  background-color: #f1f1f1;
+    padding: 20px;
+        }
+ .contacto h2 {
+    margin-top: 0;
+        }
+ .contacto ul {
+    list-style-type: none;
+   margin: 0;
+    padding: 0;
+}
+.contacto li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contacto li img {
+    width: 50px;
+    margin-right: 10px;
+}
+.contacto p {
+      margin: 0;
+    font-size: 16px;
+}
+.redes-sociales {
+display: flex;
+    justify-content: center;
+}
+.redes-sociales a {
+          margin: 0 10px;
+        }
+.redes-sociales img {
+        width: 30px;
+        height: 30px;
+        }
+.contact{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
