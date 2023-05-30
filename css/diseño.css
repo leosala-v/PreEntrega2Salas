@@ -76,7 +76,7 @@ body {
     }
 
     .mobile-menu li a:hover {
-      color: #ffcc00;
+      color: #45868b9d;
     }
   }
   .doctor-card {
@@ -139,16 +139,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .whatsapp-link {
-    display: inline-block;
-    margin-top: 10px;
-    color: #fff;
-    background-color:  #5f79a0;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 4px;
-  }
-
+  .whatsapp-link,
   .linkedin-link,
   .instagram-link {
     display: inline-block;
@@ -157,14 +148,25 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  .whatsapp-link {
+    background-color: #5f79a0;
   }
 
   .linkedin-link {
-    background-color:  #5f79a0;
+    background-color: #5f79a0;
   }
 
   .instagram-link {
-    background-color:  #5f79a0;
+    background-color: #5f79a0;
+  }
+
+  .whatsapp-link:hover,
+  .linkedin-link:hover,
+  .instagram-link:hover {
+    background-color: #46a4a3;
   }
 
   .contact-form {
@@ -185,7 +187,7 @@ body {
   }
 
   .contact-form button {
-    background-color:  #5f79a0;
+    background-color: #5f79a0;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -195,4 +197,14 @@ body {
 
   .contact-form button:hover {
     background-color: #46a4a3;
+  }
+
+  @media (max-width: 480px) {
+    .contact-info {
+      padding: 10px;
+    }
+
+    .map-container {
+      height: 200px;
+    }
   }
