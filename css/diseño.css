@@ -10,7 +10,7 @@ body {
 
   .navbar {
     background-color: #46a4a3;
-    height: 70px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,7 @@ body {
   }
 
   .logo {
-    height: 70px;
+    height: 100px;
   }
 
   .menu {
@@ -40,7 +40,7 @@ body {
 
   .menu li a:hover {
     color: #323563d8;
-    background-color: cadetblue;
+    background-color: #5f79a0;
     border-radius: 10px;
   }
 
@@ -78,4 +78,121 @@ body {
     .mobile-menu li a:hover {
       color: #ffcc00;
     }
+  }
+  .doctor-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .doctor-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .doctor-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .doctor-specialization {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+
+  .experience-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .experience-list li {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .doctor-card {
+        width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+  }
+  .contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .map-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+  .whatsapp-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    background-color:  #5f79a0;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .linkedin-link,
+  .instagram-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .linkedin-link {
+    background-color:  #5f79a0;
+  }
+
+  .instagram-link {
+    background-color:  #5f79a0;
+  }
+
+  .contact-form {
+    text-align: left;
+  }
+
+  .contact-form label,
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .contact-form button {
+    background-color:  #5f79a0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .contact-form button:hover {
+    background-color: #46a4a3;
   }
