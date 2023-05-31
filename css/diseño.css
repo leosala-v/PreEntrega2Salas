@@ -237,7 +237,6 @@ body {
   .intention-image {
     max-width: 50%;
     margin-bottom: 20px;
-    border-radius: 30px;
   }
 
   .intention-title {
@@ -291,11 +290,12 @@ body {
   }
 
   .service-card-image {
-    max-width: 100%;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    width: 2750px;
+    display: block;
+    margin: 0 auto;
+    width: 200px; 
     height: 200px;
+    border-radius: 20px; 
+    object-fit: cover; 
   }
 
   .service-card-title {
