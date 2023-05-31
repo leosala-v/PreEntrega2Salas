@@ -208,3 +208,69 @@ body {
       height: 200px;
     }
   }
+  .hero {
+    background-image: url(ruta-imagen-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .intention {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .intention-image {
+    max-width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .intention-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .intention-description {
+    margin-bottom: 10px;
+  }
+  @media (max-width: 768px) {
+    .hero {
+      height: 30px;
+    }
+
+    .hero h1 {
+      font-size: 24px;
+    }
+
+    .hero p {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 769px) {
+    .hero {
+      height: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+    }
+
+    .hero p {
+      font-size: 24px;
+    }
+  }
