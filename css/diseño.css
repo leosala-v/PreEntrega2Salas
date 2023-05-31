@@ -237,6 +237,7 @@ body {
   .intention-image {
     max-width: 50%;
     margin-bottom: 20px;
+    border-radius: 30px;
   }
 
   .intention-title {
