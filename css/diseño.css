@@ -1,336 +1,330 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
-  .navbar {
-    background-color: #46a4a3;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-  }
+.navbar {
+  background-color: #46a4a3;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
 
-  .logo {
-    height: 100px;
-  }
+.logo {
+  height: 100px;
+}
 
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 15px;
+}
+
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  color: #ffffffd8;
+  background-color: #1a434da8;
+  border-radius: 10px;
+  transform: scale(1.2);
+}
+
+.navbar-toggler {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.doctor-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.doctor-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.doctor-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.doctor-specialization {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.experience-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.experience-list li {
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.map-container {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.whatsapp-link,
+.linkedin-link,
+.instagram-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.whatsapp-link {
+  background-color: #5f79a0;
+}
+
+.linkedin-link {
+  background-color: #5f79a0;
+}
+
+.instagram-link {
+  background-color: #5f79a0;
+}
+
+.whatsapp-link:hover,
+.linkedin-link:hover,
+.instagram-link:hover {
+  background-color: #46a4a3;
+}
+
+.contact-form {
+  text-align: left;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+.contact-form button {
+  background-color: #5f79a0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #46a4a3;
+}
+
+.hero {
+  background-image: url(ruta-imagen-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.intention {
+  padding: 20px;
+  text-align: center;
+}
+
+.intention-image {
+  max-width: 50%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.intention-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.intention-description {
+  margin-bottom: 10px;
+}
+
+.service-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.service-card-item {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.service-card-image {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.service-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-card-description {
+  margin-bottom: 10px;
+}
+
+.service-card-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
   .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: none;
+  }
+
+  .mobile-menu {
     display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
-  .menu li {
-    margin-right: 15px;
+  .mobile-menu li {
+    margin-bottom: 10px;
   }
 
-  .menu li a {
+  .mobile-menu li a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
   }
 
-  .menu li a:hover {
-    color: #323563d8;
-    background-color: #5f79a0;
-    border-radius: 10px;
+  .mobile-menu li a:hover {
+    color: #45868b9d;
   }
 
-  .navbar-toggler {
-    border: none;
-    background: transparent;
-    outline: none;
-  }
-
-  .mobile-menu {
-    display: none;
-  }
-
-  @media (max-width: 768px) {
-    .menu {
-      display: none;
-    }
-
-    .mobile-menu {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-    }
-
-    .mobile-menu li {
-      margin-bottom: 10px;
-    }
-
-    .mobile-menu li a {
-      color: #ffffff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .mobile-menu li a:hover {
-      color: #45868b9d;
-    }
-  }
   .doctor-card {
-    max-width: 800px;
-    margin: 0 auto;
+    width: 400px;
+    margin: 50px auto;
     padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
 
-  .doctor-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-  }
-
-  .doctor-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .doctor-specialization {
-    font-size: 18px;
-    color: #888;
-    margin-bottom: 20px;
-  }
-
-  .experience-list {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 20px;
-  }
-
-  .experience-list li {
-    margin-bottom: 10px;
-  }
-
-  @media (max-width: 768px) {
-    .doctor-card {
-        width: 400px;
-        margin: 50px auto;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        text-align: center;
-    }
-  }
   .contact-info {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
   }
 
   .map-container {
-    width: 100%;
-    height: 400px;
-    margin-bottom: 20px;
+    height: 200px;
   }
 
-  .whatsapp-link,
-  .linkedin-link,
-  .instagram-link {
-    display: inline-block;
-    margin-top: 10px;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-  }
-
-  .whatsapp-link {
-    background-color: #5f79a0;
-  }
-
-  .linkedin-link {
-    background-color: #5f79a0;
-  }
-
-  .instagram-link {
-    background-color: #5f79a0;
-  }
-
-  .whatsapp-link:hover,
-  .linkedin-link:hover,
-  .instagram-link:hover {
-    background-color: #46a4a3;
-  }
-
-  .contact-form {
-    text-align: left;
-  }
-
-  .contact-form label,
-  .contact-form input,
-  .contact-form textarea {
-    display: block;
-    margin-bottom: 10px;
-  }
-
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 8px;
-  }
-
-  .contact-form button {
-    background-color: #5f79a0;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  .contact-form button:hover {
-    background-color: #46a4a3;
-  }
-
-  @media (max-width: 480px) {
-    .contact-info {
-      padding: 10px;
-    }
-
-    .map-container {
-      height: 200px;
-    }
-  }
   .hero {
-    background-image: url(ruta-imagen-hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    text-align: center;
+    height: 30px;
   }
 
   .hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    font-size: 24px;
   }
 
   .hero p {
-    font-size: 18px;
+    font-size: 14px;
   }
+}
 
-  .intention {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .intention-image {
-    max-width: 50%;
-    margin-bottom: 20px;
-    border-radius: 20px;
-  }
-
-  .intention-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-
-  .intention-description {
-    margin-bottom: 10px;
-  }
-  @media (max-width: 768px) {
-    .hero {
-      height: 30px;
-    }
-
-    .hero h1 {
-      font-size: 24px;
-    }
-
-    .hero p {
-      font-size: 14px;
-    }
-  }
-  @media (min-width: 769px) {
-    .hero {
-      height: 30px;
-    }
-
-    .hero h1 {
-      font-size: 48px;
-    }
-
-    .hero p {
-      font-size: 24px;
-    }
-  }
+/* Estilos para laptops y pantallas más grandes */
+@media (min-width: 769px) {
   .service-card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    border-radius: 20px;
+    justify-content: space-between;
   }
 
-  .service-card-item {
-    width: 300px;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
+  .hero {
+    height: 30px;
   }
 
-  .service-card-image {
-    display: block;
-    margin: 0 auto;
-    width: 200px; 
-    height: 200px;
-    border-radius: 20px; 
-    object-fit: cover; 
+  .hero h1 {
+    font-size: 48px;
   }
 
-  .service-card-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  .hero p {
+    font-size: 24px;
   }
-
-  .service-card-description {
-    margin-bottom: 10px;
-  }
-
-  .service-card-link {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 5px 10px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 4px;
-  }
-
-  /* Estilos para dispositivos móviles */
-  @media (max-width: 768px) {
-    .service-card-item {
-      width: 100%;
-    }
-  }
-
-  /* Estilos para laptops y pantallas más grandes */
-  @media (min-width: 769px) {
-    .service-card {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-  }
+}
