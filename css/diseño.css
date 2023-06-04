@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.navbar {
+.navbar .navbar-expanded-lg{
   background-color: #46a4a3;
 }
 .navbar-brand img{
@@ -64,7 +64,7 @@
 .map-container {
   width: 100%;
   height: 400px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .whatsapp-link,
@@ -173,7 +173,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border-radius: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.service-card-item {
+  flex-basis: calc(25% - 30px);
+  text-align: center;
+  padding: 20px;
+  
+ 
+margin-bottom: 30px;
 }
 
 .service-card-item {
@@ -247,15 +257,24 @@ main {
     color: #45868b9d;
   }
 
-  .doctor-card {
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
+
+    .service-card {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  
+    .service-card-item {
+      flex-basis: calc(50% - 30px);
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 30px;
+      margin: 10px;
+    }
   }
+  
 
   .contact-info {
     padding: 10px;
@@ -276,7 +295,6 @@ main {
   .hero p {
     font-size: 14px;
   }
-}
 
 /* Estilos para laptops y pantallas más grandes */
 @media (min-width: 769px) {
@@ -292,6 +310,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
 
   .hero {
     height: 30px;
