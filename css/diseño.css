@@ -225,9 +225,6 @@ main {
   margin-bottom: 10px;
 }
 
-
-
-/* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
   .navbar-collapse {
     justify-content: flex-end;
@@ -296,7 +293,7 @@ main {
     font-size: 14px;
   }
 
-/* Estilos para laptops y pantallas más grandes */
+
 @media (min-width: 769px) {
   footer {
     
