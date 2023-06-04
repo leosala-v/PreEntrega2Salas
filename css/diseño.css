@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-.navbar .navbar-expanded-lg{
+
+.container-fluid{
   background-color: #46a4a3;
 }
 .navbar-brand img{
@@ -11,7 +12,7 @@
 }
 
 .nav-item a :hover{
-  transition: #225a59 1s;
+
   background-color: #46a4a3;
   border-radius: 5px;
   height: 0px;
@@ -173,7 +174,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 15px;
+  margin-left: 15px; 
   margin-right: 15px;
 }
 
@@ -181,16 +182,14 @@
   flex-basis: calc(25% - 30px);
   text-align: center;
   padding: 20px;
-  
- 
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .service-card-item {
   width: 300px;
   margin: 10px;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 1px solid #979696;
   text-align: center;
 }
 
@@ -282,6 +281,7 @@ main {
 
   .map-container {
     height: 200px;
+    
   }
 
   .hero {
