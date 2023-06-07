@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+header .navbar {
+  background-color: cadetblue; }
+
+header .navbar-brand img {
+  height: 80px; }
+
+header .nav-item a:hover {
+  transform: translate(2px, 2px);
+  background-color: #27575e85;
+  border-radius: 10px;
+  color: #202020; }
+
+main.principal {
+  display: grid;
+  place-items: center;
+  text-align: center; }
+  main.principal .intention {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    margin: 40px; }
+    main.principal .intention .intention-image {
+      width: 300px;
+      height: 200px;
+      border-radius: 20px; }
