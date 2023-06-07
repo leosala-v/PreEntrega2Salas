@@ -1,0 +1,17 @@
+{
+  "name": "preentrega1salas---copia",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000P\u0000r\u0000e\u0000e\u0000n\u0000t\u0000r\u0000e\u0000g\u0000a\u00002\u0000s\u0000a\u0000l\u0000a\u0000s\u0000.\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
