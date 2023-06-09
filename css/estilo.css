@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box; }
 
+body {
+  background-color: whitesmoke; }
+
 header .navbar {
   background-color: cadetblue; }
 
@@ -15,16 +18,53 @@ header .nav-item a:hover {
   border-radius: 10px;
   color: #202020; }
 
-main.principal {
-  display: grid;
-  place-items: center;
+h1 {
+  margin: 10px;
   text-align: center; }
-  main.principal .intention {
-    display: grid;
-    gap: 10px;
-    text-align: center;
-    margin: 40px; }
-    main.principal .intention .intention-image {
-      width: 300px;
-      height: 200px;
-      border-radius: 20px; }
+
+.main-index {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #357b86ca;
+  padding: 1.2rem; }
+  .main-index .principal {
+    display: flex; }
+    .main-index .principal img {
+      width: 400px; }
+
+.service-card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  border: 2px solid #27575e; }
+  .service-card-item .service-card-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px; }
+
+.service-card-title {
+  font-size: 24px;
+  margin-bottom: 10px; }
+
+.service-card-description {
+  font-size: 16px;
+  margin-bottom: 20px; }
+
+.service-card-link {
+  color: #202020;
+  text-decoration: none;
+  font-weight: bold; }
+
+footer {
+  bottom: 0;
+  margin: 10px; }
