@@ -4,67 +4,92 @@
   box-sizing: border-box; }
 
 body {
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  font-family: 'Geologica', sans-serif;
+  font-family: 'Poppins', sans-serif; }
 
-header .navbar {
-  background-color: cadetblue; }
+footer {
+  bottom: 0; }
 
-header .navbar-brand img {
-  height: 80px; }
-
-header .nav-item a:hover {
-  transform: translate(2px, 2px);
-  background-color: #27575e85;
-  border-radius: 10px;
-  color: #202020; }
-
-h1 {
-  margin: 10px;
-  text-align: center; }
+header {
+  background-color: #202020; }
+  header .navbar {
+    background-color: cadetblue; }
+  header .navbar-brand img {
+    height: 80px; }
+  header .nav-item a:hover {
+    transform: translate(2px, 2px);
+    background-color: #27575e85;
+    border-radius: 10px;
+    color: #202020; }
 
 .main-index {
+  margin-top: 20px;
   margin: auto;
   width: 90%;
   display: flex;
   flex-wrap: wrap;
-  background-color: #357b86ca;
+  background-color: #37555b85;
   padding: 1.2rem; }
   .main-index .principal {
     display: flex; }
+    .main-index .principal h1 {
+      text-align: center;
+      font-family: 'Geologica', sans-serif;
+      font-family: 'Poppins', sans-serif; }
     .main-index .principal img {
-      width: 400px; }
+      width: 350px; }
+    .main-index .principal p {
+      margin: 20px;
+      line-height: 1.5rem; }
 
-.service-card-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+.card-index {
   width: 300px;
-  height: 400px;
-  border-radius: 10px;
   padding: 20px;
-  border: 2px solid #27575e; }
-  .service-card-item .service-card-image {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  margin: 20px; }
+  .card-index .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .card-index .subtitle {
+    font-size: 14px;
+    margin-bottom: 5px; }
+  .card-index .info {
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 5px; }
+
+.doctor-card {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center; }
+  .doctor-card .doctor-image {
     width: 200px;
     height: 200px;
-    object-fit: cover;
     border-radius: 50%;
     margin-bottom: 20px; }
-
-.service-card-title {
-  font-size: 24px;
-  margin-bottom: 10px; }
-
-.service-card-description {
-  font-size: 16px;
-  margin-bottom: 20px; }
-
-.service-card-link {
-  color: #202020;
-  text-decoration: none;
-  font-weight: bold; }
-
-footer {
-  bottom: 0;
-  margin: 10px; }
+  .doctor-card .doctor-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .doctor-card .doctor-specialization {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 20px; }
+  .doctor-card .experience-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px; }
+  .doctor-card .experience-list li {
+    margin-bottom: 10px; }
+  .doctor-card .contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; }
