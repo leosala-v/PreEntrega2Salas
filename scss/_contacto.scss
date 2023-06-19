@@ -1,0 +1,82 @@
+.contact-info {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+      .map-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+  }
+  
+  .whatsapp-link,
+  .linkedin-link,
+  .instagram-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .whatsapp-link {
+    background-color: #5f79a0;
+  }
+  
+  .linkedin-link {
+    background-color: #5f79a0;
+  }
+  
+  .instagram-link {
+    background-color: #5f79a0;
+  }
+  
+  .whatsapp-link:hover,
+  .linkedin-link:hover,
+  .instagram-link:hover {
+    background-color: #46a4a3;
+  }
+  
+  .contact-form {
+    text-align: left;
+  }
+  
+  .contact-form label,
+  .contact-form input,
+  .contact-form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .contact-form button {
+    background-color: #5f79a0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #46a4a3;
+  }
+  
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+}

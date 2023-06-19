@@ -1,0 +1,24 @@
+header{
+    background-color: #202020;
+    .navbar{
+       background-color: cadetblue;
+    
+    }
+    .navbar-brand{
+        img{
+            height: 80px;
+        }
+
+    }
+    .nav-item{
+
+        a:hover{
+            transform: translate(2px,2px) ;
+            background-color: #27575e85;
+            border-radius: 10px;
+            color: #202020;
+        }
+    }
+
+
+}

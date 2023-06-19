@@ -1,0 +1,27 @@
+.main-index{
+    margin-top: 20px;
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #37555b85;
+    padding: 1.2rem;
+
+    .principal{
+      display: flex;
+        h1{
+          text-align: center;
+          font-family: 'Geologica', sans-serif;
+          font-family: 'Poppins', sans-serif;
+        }
+        img{
+          width: 350px;
+          height: 350px;
+        }
+        p{
+          margin: 20px;
+          line-height: 1.5rem;
+        }
+
+    }
+}
