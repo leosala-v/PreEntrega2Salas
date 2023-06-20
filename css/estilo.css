@@ -132,7 +132,6 @@ header {
   .contact-info .contact-form button:hover {
     background-color: #46a4a3; }
   .contact-info .hero {
-    background-image: url(ruta-imagen-hero.jpg);
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -185,4 +184,4 @@ header {
 .map-ubi .map {
   width: 100%;
   height: 400px;
-  text-align: center; }
+  text-align: center;}

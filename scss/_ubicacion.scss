@@ -3,7 +3,9 @@
       width: 100%;
       height: 400px;
       text-align: center;
+      @media screen (max-width: 610px;){
+        width: 400;
+        height: 350;
+      }
     }
   }
-  
-  
