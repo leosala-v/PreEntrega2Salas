@@ -184,4 +184,16 @@ header {
 .map-ubi .map {
   width: 100%;
   height: 400px;
-  text-align: center;}
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .map-container {
+    padding-bottom: 75%; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .map-container {
+    padding bottom: 50%;
+  }
+}
